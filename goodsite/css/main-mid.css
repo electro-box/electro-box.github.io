@@ -1,0 +1,437 @@
+/* CSS Styles for screen less 1890px GoodSite.ru*/
+
+/*-------Fonts-------*/
+@import url('https://fonts.googleapis.com/css?family=Cuprum|PT+Sans|Roboto');
+
+/*-----Header-------*/
+.head {
+  width: 100%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 1);
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+.head a {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1em;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-top: 15px;
+  outline: none;
+}
+.head a:hover {
+  color: yellow;
+}
+
+/*----Main page------*/
+.main {
+  height: 710px;
+  width: 100%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  background: url(../images/bg.png) no-repeat center;
+  -moz-animation: scale 8s forwards;
+  -webkit-animation: scale 8s forwards;
+  -o-animation: scale 8s forwards;
+  animation: scale 8s forwards;
+}
+@keyframes scale {
+  from { background-size: 100%; }
+  to { background-size: 125%; overflow: hidden; }
+}
+@-webkit-keyframes scale {
+  from { background-size: 100%; }
+  to { background-size: 125%; overflow: hidden; }
+}
+@-moz-keyframes scale {
+  from { background-size: 100%; }
+  to { background-size: 125%; overflow: hidden; }
+}
+@-o-keyframes scale {
+  from { background-size: 100%; }
+  to { background-size: 125%; overflow: hidden; }
+}
+.logo {
+  margin-left: 45%;
+  margin-top: 7%;
+}
+.main h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.2em;
+  text-align: center;
+  color: white;
+  padding-top: 6%;
+  z-index: 100;
+}
+.links {
+  position: relative;
+  top: 50px;
+  width: 307px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.button {
+  background-color: rgba(0, 0, 0, 0.4);
+  transition-property: background-color, color;
+  transition-duration: 700ms;
+  height: 40px;
+  width: 140px;
+  margin-right: 25px;
+  padding-top: 0px;
+  border: 1px yellow solid;
+  border-radius: 4px;
+  text-align: center;
+}
+.button a {
+  font-family: 'PT Sans', sans-serif;
+  display: inline-block;
+  width: 139px;
+  height: 29px;
+  padding-top: 11px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  outline: none;
+}
+.button:hover {
+  background-color: #FFD700;
+}
+.button:hover a {
+  color: rgb(0, 0, 0);
+}
+/*-------About Us------*/
+.bg-about {
+  margin-top: 0;
+  width: 100%;
+  height: 710px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: rgba(250, 238, 192, .6);
+}
+.info-about {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  background-color: rgba(145, 145, 121, 1); /* */
+}
+.info-about-bg {
+  width: 1350px;
+  height: 160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-about {
+  display: block;
+  width: 1350px;
+  height: 47px;
+  margin: 0 auto;
+}
+.logo-about img {
+  display: block;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-about {
+  width: 1350px;
+  display: block;
+  position: relative;
+  top: 30px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+}
+.main-about {
+  position: relative;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+}
+.picture-text {
+  width: 1350px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.picture {
+  border-radius: 10px;
+  height: 413px;
+  width: 537px;
+  background-image: url(../images/office.jpg);
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+  top: 45px;
+  left: 120px;
+}
+.info {
+  position: relative;
+  top: 45px;
+  right: 40px;
+  width: 50%;
+  height: 650px;
+  float: right;
+  color: black;
+  overflow: hidden;
+}
+.text-list {
+  list-style: none;
+  list-style-image: url(../images/mark.png);
+  padding-left: 100px;
+  width: 75%;
+}
+.text-list li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+#mountains {
+  height: 400px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-image: url(../images/mountain.jpg);
+}
+.hide-mountains {
+  position: relative;
+  top: 0;
+  z-index: -1;
+}
+
+/*-----Feedback------*/
+.feedback {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+#feedback-head {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(227, 225, 177);
+}
+.feedback-header {
+  text-align: center;
+  width: 100%;
+  height: 90px;
+  background-color: rgb(102, 101, 91);
+}
+.feedback-header-text {
+  width: 1350px;
+  height: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+.feedback-main {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(247, 243, 235);
+}
+.text-indent {
+  display: block;
+  position: relative;
+  top: 2px;
+  left: 330px;
+  width: 720px;
+}
+.text-indent p {
+  padding-top: 15px;
+  padding-left: 40px;
+  text-align: left;
+}
+.mail-image {
+  width: 26px;
+  height: 20px;
+  background-image: url(../images/mail.png);
+  display: block;
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 0;
+}
+.phone-image {
+  width: 14px;
+  height: 27px;
+  background-image: url(../images/phone.png);
+  display: block;
+  position: relative;
+  float: left;
+  top: 22px;
+  left: 8px;
+}
+.text {
+  width: 1350px;
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+.form-position {
+  width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#form {
+  position: relative;
+  top: -20px;
+  left: 460px;
+  display: block;
+  width: 420px;
+  height: 380px;
+  font-size: 1.1em;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+.input {
+  text-align: right;
+  vertical-align: top;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1em;
+}
+.input label {
+  padding-right: 5px;
+}
+.input
+input[type="text"],
+input[type="email"],
+textarea {
+  font-size: 1em;
+  border: 1px solid rgb(78, 189, 34);
+  border-radius: 4px;
+  text-indent: 8px;
+  resize: none;
+}
+.input
+input[type="text"]:focus {
+  border-color: rgb(78, 189, 34);
+  box-shadow: 0 0 6px rgba(46, 196, 8, .5);
+  outline: none;
+}
+input[type="email"]:focus {
+  border-color: rgb(78, 189, 34);
+  box-shadow: 0 0 6px rgba(46, 196, 8, .5);
+  outline: none;
+}
+textarea:focus {
+  border-color: rgb(78, 189, 34);
+  box-shadow: 0 0 6px rgba(46, 196, 8, .5);
+  outline: none;
+}
+.input input[type="submit"] {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 4px grey;
+  background: rgb(240, 247, 22);
+  height: 30px;
+  width: 140px;
+  color: black;
+  font-family: 'PT Sans', sans-serif;
+  font-size: .9em;
+  font-weight: 600;
+  transition-property: background-color, color;
+  transition-duration: 700ms;
+  padding: 0;
+}
+.input input[type="submit"]:hover {
+  background: rgb(55, 191, 40);
+  color: white;
+  box-shadow: 0 0 4px grey;
+  transition-property: background-color, color;
+  transition-duration: 700ms;
+}
+.input input[type="submit"]:active {
+  outline: none;
+}
+/* Styles form error - plugin jquery.validate.min.js */
+#form label.error {
+  display: block;
+  height: 13px;
+  color: #F00;
+  font-size: 12px;
+  padding-bottom: 0;
+}
+#form input.error, select.error {
+  border: 1px red solid;
+  box-shadow: 0 0 6px rgba(196, 55, 8, .5);
+  outline: none;
+}
+.input input[type="submit"]:active {
+  outline: none;
+}
+/*------Footer--------*/
+.footer {
+  display: block;
+  width: 100%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: rgba(33, 32, 29, 1);
+  color: white;
+}
+.footer-position {
+  width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.houses, .map, .post, .telephone {
+  display: block;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+.houses {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  top: -170px;
+  left: 66%;
+  background: url(../images/houses.png);
+  background-repeat: no-repeat;
+  color: yellow;
+  font-weight: bold;
+  padding-top: 160px;
+  padding-left: 20px;
+}
+.map {
+  top: 70px;
+  left: 24%;
+  width: 220px;
+}
+.post {
+  top: 4px;
+  left: 41%;
+  width: 150px;
+}
+.telephone {
+  top: -45px;
+  left: 54%;
+  width: 145px;
+}
+/*----END----*/

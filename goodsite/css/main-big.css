@@ -1,0 +1,415 @@
+/* CSS Styles for screen 1920px GoodSite.ru*/
+
+/*-------Fonts-------*/
+@import url('https://fonts.googleapis.com/css?family=Cuprum|PT+Sans|Roboto');
+
+/*-----Header-------*/
+.max-width {
+  width: 1905px;
+  box-sizing: border-box;
+}
+.head {
+  width: 1904px;
+  height: 70px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 1);
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+.head a {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1em;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-top: 25px;
+  outline: none;
+}
+.head a:hover {
+  color: yellow;
+}
+
+/*----Main page------*/
+.main {
+  height: 910px;
+  width: 1904px;
+  overflow: hidden;
+  background-color: black;
+  background: url(../images/bg.png) no-repeat center;
+  -moz-animation: scale 8s forwards;
+  -webkit-animation: scale 8s forwards;
+  -o-animation: scale 8s forwards;
+  animation: scale 8s forwards;
+}
+@keyframes scale {
+  from { background-size: 100%; }
+  to { background-size: 125%; overflow: hidden; }
+}
+@-webkit-keyframes scale {
+  from { background-size: 100%; }
+  to { background-size: 125%; overflow: hidden; }
+}
+@-moz-keyframes scale {
+  from { background-size: 100%; }
+  to { background-size: 125%; overflow: hidden; }
+}
+@-o-keyframes scale {
+  from { background-size: 100%; }
+  to { background-size: 125%; overflow: hidden; }
+}
+.logo {
+  margin-left: 46%;
+  margin-top: 7%;
+}
+.main h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.6em;
+  text-align: center;
+  color: white;
+  padding-top: 6%;
+  z-index: 100;
+}
+.links {
+  position: relative;
+  top: 50px;
+  left: 41.9%;
+  display: flex;
+  align-items: center;
+}
+.button {
+  background-color: rgba(0, 0, 0, 0.4);
+  transition-property: background-color, color;
+  transition-duration: 700ms;
+  height: 40px;
+  width: 140px;
+  margin-right: 25px;
+  padding-top: 0px;
+  border: 1px yellow solid;
+  border-radius: 4px;
+  text-align: center;
+}
+.button a {
+  font-family: 'PT Sans', sans-serif;
+  display: inline-block;
+  width: 139px;
+  height: 29px;
+  padding-top: 11px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  outline: none;
+}
+.button:hover {
+  background-color: #FFD700;
+}
+.button:hover a {
+  color: rgb(0, 0, 0);
+}
+
+/*-------About Us------*/
+.bg-about {
+  margin-top: 0;
+  width: 1904px;
+  height: 710px;
+  overflow: hidden;
+  background-color: rgba(250, 238, 192, .6);
+}
+.info-about {
+  width: 1904px;
+  height: 160px;
+  overflow: hidden;
+  background-color: rgba(145, 145, 121, 1);
+}
+.logo-about {
+  width: 130px;
+  height: 47px;
+  display: block;
+  position: relative;
+  top: 20px;
+  left: 45%;
+  padding: 0;
+}
+.header-about {
+  display: block;
+  position: relative;
+  top: 30px;
+  left: 0;
+  width: 1904px;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-size: 1.5em;
+  padding: 0;
+  color: rgb(255, 255, 255);
+}
+.header-about p {
+  text-align: center;
+}
+.main-about {
+  position: relative;
+  top: 0;
+  width: 1904px;
+  overflow: hidden;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+}
+.picture {
+  border-radius: 10px;
+  height: 413px;
+  width: 537px;
+  background-image: url(../images/office.jpg);
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+  top: 40px;
+  left: 290px;
+}
+.info {
+  position: relative;
+  top: 40px;
+  right: 150px;
+  width: 50%;
+  height: 650px;
+  float: right;
+  color: black;
+  overflow: hidden;
+}
+.text-list {
+  list-style: none;
+  list-style-image: url(../images/mark.png);
+  padding-left: 100px;
+  width: 70%;
+}
+.text-list li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+#mountains {
+  height: 400px;
+  width: 1904px;
+  overflow: hidden;
+  background-image: url(../images/mountain.jpg);
+}
+.hide-mountains {
+  position: relative;
+  top: 0;
+  z-index: -1;
+}
+
+/*-----Feedback------*/
+.feedback {
+  display: block;
+  width: 1904px;
+  overflow: hidden;
+  z-index: 10;
+}
+#feedback-head {
+  height: 50px;
+  width: 1904px;
+  background-color: rgb(227, 225, 177);
+  z-index: 10;
+}
+.feedback-header {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(102, 101, 91);
+  padding-top: 18px;
+  z-index: 10;
+}
+.feedback-header-text {
+  width: 1904px;
+  height: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 780px;
+}
+.feedback-main {
+  width: 1904px;
+  height: 600px;
+  background-color: rgb(247, 243, 235);
+}
+.text {
+  width: 46%;
+  height: 160px;
+  display: block;
+  position: relative;
+  float: right;
+  top: 10px;
+  right: 450px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+.text-indent {
+  display: block;
+  position: relative;
+  top: 5px;
+  left: 0;
+  width: 875px;
+  text-align: center;
+}
+.text-indent p {
+  padding-top: 15px;
+  padding-left: 55px;
+  text-align: left;
+}
+.mail-image {
+  width: 26px;
+  height: 20px;
+  background-image: url(../images/mail.png);
+  display: block;
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 15px;
+}
+.phone-image {
+  width: 14px;
+  height: 27px;
+  background-image: url(../images/phone.png);
+  display: block;
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 22px;
+}
+
+#form {
+  position: relative;
+  top: 180px;
+  left: 730px;
+  display: block;
+  width: 420px;
+  height: 380px;
+  font-size: 1.1em;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}
+.input {
+  text-align: right;
+  vertical-align: top;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1em;
+  outline: none;
+}
+.input label {
+  padding-right: 5px;
+}
+.input
+  input[type="text"],
+  input[type="email"],
+  textarea {
+  font-size: 1em;
+  border: 1px solid rgb(78, 189, 34);
+  border-radius: 4px;
+  text-indent: 8px;
+  resize: none;
+  outline: none;
+}
+.input input[type="text"]:focus {
+  border-color: rgb(78, 189, 34);
+  box-shadow: 0 0 6px rgba(46, 196, 8, .5);
+  outline: none;
+}
+.input input[type="email"]:focus {
+  border-color: rgb(78, 189, 34);
+  box-shadow: 0 0 6px rgba(46, 196, 8, .5);
+  outline: none;
+}
+.input textarea:focus {
+  border-color: rgb(78, 189, 34);
+  box-shadow: 0 0 6px rgba(46, 196, 8, .5);
+  outline: none;
+}
+.input input[type="submit"] {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 6px grey;
+  background: rgb(240, 247, 22);
+  height: 30px;
+  width: 140px;
+  color: black;
+  font-family: 'PT Sans', sans-serif;
+  font-size: .9em;
+  font-weight: 600;
+  text-align: center;
+  padding: 0;
+  transition-property: background-color, color;
+  transition-duration: 700ms;
+  outline: none;
+}
+.input input[type="submit"]:hover {
+  background: rgb(55, 191, 40);
+  color: white;
+  box-shadow: 0 0 4px grey;
+  transition-property: background-color, color;
+  transition-duration: 700ms;
+}
+.input input[type="submit"]:active {
+  outline: none;
+}
+
+/*Styles form error for plugin jquery.validate.min.js*/
+#form label.error {
+  display: block;
+  height: 13px;
+  color: #F00;
+  font-size: 12px;
+}
+#form input.error, select.error {
+  border: 1px red solid;
+  box-shadow: 0 0 6px rgba(196, 55, 8, 0.5);
+  outline: none;
+}
+
+/*------Footer--------*/
+.footer {
+  display: block;
+  width: 1904px;
+  height: 200px;
+  overflow: hidden;
+  background-color: rgba(33, 32, 29, 1);
+  color: white;
+}
+.houses, .map, .post, .telephone {
+  display: block;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+.houses {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  top: -170px;
+  left: 65%;
+  background: url(../images/houses.png);
+  background-repeat: no-repeat;
+  color: yellow;
+  font-weight: bold;
+  padding-top: 160px;
+  padding-left: 20px;
+}
+.map {
+  top: 70px;
+  left: 30%;
+  width: 220px;
+}
+.post {
+  top: 4px;
+  left: 44%;
+  width: 150px;
+}
+.telephone {
+  top: -45px;
+  left: 55%;
+  width: 145px;
+}
+
+/*-------END-------*/

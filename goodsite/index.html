@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GoodSite</title>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="верстка, сайты, разработка, создание">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/main-big.css" rel="stylesheet" media="(min-width:1900px)">
+  <link href="css/main-mid.css" rel="stylesheet" media="(min-width:1364px) and (max-width:1900px)">
+  <link href="css/main-min.css" rel="stylesheet" media="(max-width:1363px)">
+  <script src="js/jquery-3.2.0.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="js/slow_scrolling.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/validate.js"></script>
+</head>
+<body class="max-width">
+  <header><nav class="head">
+    <a href="#feedback">ОБРАТНАЯ СВЯЗЬ</a>
+    <a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</a>
+    <a href="#about">О НАС</a>
+  </nav>
+</header>
+  <div class="main">
+    <img class="logo" src="images/logo.png" alt="">
+    <h1>СОЗДАНИЕ САЙТОВ ДЛЯ ВАШЕГО<br> БИЗНЕСА</h1>
+    <div class="links">
+      <div class="button"><a href="portfolio.html">ПОРТФОЛИО</a></div>
+      <div class="button"><a href="#feedback">ЗАКАЗАТЬ</a></div>
+    </div>
+  </div>
+  <!--Second Page-->
+  <div class="bg-about"><a id="about"></a>
+    <div class="info-about">
+      <div class="info-about-bg">
+        <div class="logo-about"><img src="images/about-logo.png" alt=""></div>
+        <div class="header-about">
+          <p>Мы – это команда дизайнеров и разработчиков. В сотрудничестве с вами,<br>
+            используя свой опыт и знания, создаем веб-решения бизнес задач.</p>
+        </div>
+      </div>
+    </div>
+    <div class="main-about">
+      <div class="picture-text">
+        <div class="picture"><!--Picture office--></div>
+        <div class="info">
+          <ul class="text-list">
+            <li>Создание сайтов любой сложности</li>
+            <li>Подбор доменного имени и регистрация домена</li>
+            <li>Размещение сайта в сети интернет, помощь в выборе хостинг-провайдера</li>
+            <li>Разработка оригинал-макета и создание уникального дизайна сайта</li>
+            <li>Быстрое и качественное создание функционального сайта с понятной структурой и удобными меню</li>
+            <li>Наполнение сайта текстовым и графическим контентом</li>
+            <li>Оптимизация под продвижение в ТОП выдач поисковых систем</li>
+         </ul>
+       </div>
+     </div>
+   </div>
+ </div>
+ <!--Third page -->
+ <div id="mountains"><!-- Mountain picture --></div>
+ <div class="feedback">
+   <div id="feedback-head"><!--Color block--></div>
+   <div class="feedback-header"><a id="feedback"></a>
+     <div class="feedback-header-text"><img src="images/feedback.png" alt=""></div>
+   </div>
+   <div class="feedback-main">
+     <div class="text">
+       Оформить заказ, задать вопрос, нужна дополнительная информация или есть предложение?
+       <div class="text-indent">
+         <div class="mail-image"><!--picture mail--></div>
+         <p>Отправьте сообщение с помощью формы. Мы ответим Вам в течение 15 минут!</p>
+         <div class="phone-image"><!--phone image--></div>
+         <p>Для экономии времени, звоните по телефону +7 000 000 00 00<br>Ответим на все вопросы, проконсультируем, примем заказ.</p>
+       </div>
+     </div>
+     <div class="form-position">
+       <form id="form" method="post" action="action.php">
+         <div class="input">
+           <label for="name">Ваше имя:</label>
+           <input type="text" id="name" name="name" placeholder="Иван Иванов">
+         </div>
+         <div class="input">
+           <label for="user-email">e-mail:</label>
+           <input type="email" id="user-email" name="useremail" placeholder="ivanov@post.ru">
+         </div>
+         <div class="input">
+           <label for="telephone">Телефон:</label>
+           <input type="text" id="telephone" name="telephone" placeholder="+7(000)000-00-00">
+         </div>
+         <div class="input">
+           <label for="content"></label>
+           <textarea rows="8" cols="35" id="content" name="content" placeholder="Введите сообщение..."></textarea>
+         </div>
+         <div class="input"><input type="submit" value="Отправить"></div>
+       </form>
+     </div>
+   </div>
+ </div>
+ <footer class="footer">
+   <div class="footer-position">
+     <div class="map"><img src="images/map.png" alt=""><br>Горно-Алтайск<br>ул. Нельсона Манделы, д. 42</div>
+     <div class="post"><img src="images/post.png" alt=""><br>email@email.ru</div>
+     <div class="telephone"><img src="images/telephone.png" alt=""><br>+7 000 000 00 00</div>
+     <div class="houses"><!--houses.png-->Goodsite<br>2018</div>
+     <div class="badges"></div>
+   </div>
+ </footer>
+</body>
+</html>
