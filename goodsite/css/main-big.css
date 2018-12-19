@@ -291,11 +291,10 @@
   text-align: right;
   vertical-align: top;
   padding-top: 20px;
-  padding-right: 50px;
-  padding-left: 50px;
   font-family: 'PT Sans', sans-serif;
   font-size: 1em;
   outline: none;
+  width: 350px;
 }
 .input label {
   padding-right: 5px;
