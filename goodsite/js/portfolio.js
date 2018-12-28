@@ -1,4 +1,4 @@
-//Включает большое изображение слева по клику
+//Enable view full image left on click
 function leftImageBig() {
   $('.image-left').replaceWith('<div class="image-big"><img src="images/onrela_wiki.png" width="990" height="750" alt="onrela"></div>');
   $('.image-big').append('<div class="button-close" onclick="leftImageSmall()"><img src="images/close.png" width="32" height="32" alt="close">');
@@ -13,7 +13,7 @@ function leftImageSmall() {
   $('.text-under-image').show();
   $('.button').show();
 }
-//Включает большое изображение справа по клику
+//Enable view full image right on click
 function rightImageBig() {
   $('.image-right').replaceWith('<div class="image-big" onclick="rightImageSmall()"><img src="images/onrela_info.jpg" width="990" height="750" alt="onrela"></div>');
   $('.image-big').append('<div class="button-close" onclick="rightImageSmall()"><img src="images/close.png" width="32" height="32" alt="close">');
